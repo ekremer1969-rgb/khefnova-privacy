@@ -52,7 +52,17 @@
   <p>KhefNova, İngilizce kelime, gramer, edat, phrasal verb ve sınava yönelik içeriklerle hazırlanmış bir öğrenme uygulamasıdır. Hem genel İngilizce öğrenmek isteyenler hem de YDS, YÖKDİL ve YDT gibi standart sınavlara hazırlananlar için tasarlanmıştır.</p>
 
   <h2>Toplanan Veriler</h2>
-  <p>KhefNova <strong>uzaktan hiçbir kişisel veri toplamaz</strong>. Uygulama tamamen kullanıcının cihazında çalışır.</p>
+  <p>KhefNova <strong>kişisel veri toplamaz</strong>. Adınız, e-posta adresiniz, konumunuz, rehberiniz veya çalışma içeriğiniz hiçbir yere gönderilmez. Uygulama hesap oluşturmanızı istemez.</p>
+
+  <h3>Çökme Raporları (Firebase Crashlytics)</h3>
+  <p>Uygulamanın kararlılığını sağlamak için Google'ın <strong>Firebase Crashlytics</strong> hizmetini kullanırız. Uygulama çöktüğünde veya ciddi bir hata oluştuğunda aşağıdaki teknik bilgiler otomatik olarak Google'a (Firebase) gönderilir:</p>
+  <ul>
+    <li>Hatanın teknik ayrıntısı (hangi kod satırında oluştuğu)</li>
+    <li>Cihaz modeli, Android sürümü ve uygulama sürümü</li>
+    <li>Hatanın oluştuğu zaman</li>
+    <li>Rastgele oluşturulan bir kurulum kimliği (sizi kişisel olarak tanımlamaz; uygulama kaldırılınca sıfırlanır)</li>
+  </ul>
+  <p>Bu bilgiler yalnızca hataları bulup düzeltmek için kullanılır; reklam, profil oluşturma veya pazarlama amacıyla kullanılmaz ve satılmaz. Toplanan veriler aktarım sırasında şifrelenir. Crashlytics'in veri işleme koşulları için: <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase gizlilik ve güvenlik</a>.</p>
 
   <h3>Yerel Olarak Saklanan Veriler</h3>
   <p>Aşağıdaki veriler <strong>yalnızca kullanıcının kendi cihazında</strong> saklanır:</p>
@@ -65,10 +75,10 @@
   <p>Bu veriler <strong>uygulamanın yerel depolama alanından çıkmaz</strong> ve geliştirici tarafından erişilemez.</p>
 
   <h2>Veri Paylaşımı</h2>
-  <p>KhefNova <strong>hiçbir üçüncü tarafla veri paylaşmaz</strong>.</p>
+  <p>KhefNova <strong>verilerinizi satmaz ve reklam amacıyla paylaşmaz</strong>. Yukarıda açıklanan çökme raporları dışında üçüncü taraflara veri gönderilmez.</p>
   <ul>
     <li>Reklam ağı yoktur</li>
-    <li>Analiz aracı (Google Analytics, Firebase, vb.) yoktur</li>
+    <li>Kullanım takibi / analiz aracı (Google Analytics vb.) yoktur</li>
     <li>Sosyal medya entegrasyonu yoktur</li>
     <li>Bulut yedekleme yoktur</li>
   </ul>
@@ -85,7 +95,7 @@
   </ul>
 
   <h2>Verilerinizin Silinmesi</h2>
-  <p>Uygulamayı kaldırdığınızda <strong>tüm verileriniz cihazınızdan silinir</strong>. Geliştirici tarafından tutulan herhangi bir yedek yoktur.</p>
+  <p>Uygulamayı kaldırdığınızda <strong>tüm verileriniz cihazınızdan silinir</strong>. Geliştirici tarafından tutulan herhangi bir yedek yoktur. Çökme raporları Firebase'de en fazla 90 gün saklanır ve sonra otomatik olarak silinir; bu raporların daha önce silinmesini isterseniz aşağıdaki e-posta adresinden bize ulaşabilirsiniz.</p>
 
   <h2>Değişiklikler</h2>
   <p>Bu gizlilik politikası gerektiğinde güncellenebilir. Önemli değişikliklerde kullanıcılar uygulama içinde bilgilendirilir.</p>
